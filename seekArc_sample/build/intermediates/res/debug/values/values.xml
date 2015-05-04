@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/D:/android/Video/seekArc_sample/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string-array name="items">
+        <item>Simple Holo theme</item>
+        <item>Custom style</item>
+    </string-array>
+    <!-- From: file:/D:/android/Video/seekArc_sample/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="dark_red">#ff510209</color>
+    <!-- From: file:/D:/android/Video/seekArc_sample/build/intermediates/exploded-aar/Video/seekArc_library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="progress_gray">#FFD8D8D8</color>
+    <color name="progress_gray_dark">#FF383838</color>
+    <!-- From: file:/D:/android/Video/seekArc_sample/src/main/res/values/color.xml -->
+    <eat-comment/>
+    <color name="red">#ffe2231a</color>
+    <declare-styleable name="SeekArc"><attr format="reference" name="thumb"/><attr format="dimension" name="thumbOffset"/><attr format="integer" name="max"/><attr format="dimension" name="progressWidth"/><attr format="dimension" name="arcWidth"/><attr format="integer" name="progress"/><attr format="integer" name="rotation"/><attr format="integer" name="startAngle"/><attr format="integer" name="sweepAngle"/><attr format="color" name="arcColor"/><attr format="color" name="progressColor"/><attr format="boolean" name="roundEdges"/><attr format="boolean" name="touchInside"/><attr format="boolean" name="clockwise"/></declare-styleable>
+    <declare-styleable name="SeekArcTheme"><attr format="reference" name="seekArcStyle"/></declare-styleable>
+    <!-- From: file:/D:/android/Video/seekArc_sample/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/D:/android/Video/seekArc_sample/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Settings</string>
+    <string name="app_name">SeekArc_sample</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_custom">CustomActivity</string>
+    <string name="title_activity_simple">SimpleActivity</string>
+    <!-- From: file:/D:/android/Video/seekArc_sample/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Holo">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+        <item name="seekArcStyle">@style/SeekArcLight</item>
+<!--    <item name="seekArcStyle">@style/SeekArc</item> -->
+    </style>
+    <!-- From: file:/D:/android/Video/seekArc_sample/build/intermediates/exploded-aar/Video/seekArc_library/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <style name="SeekArc">
+        <item name="arcColor">@color/progress_gray_dark</item>
+    </style>
+    <style name="SeekArcLight">
+        <item name="arcColor">@color/progress_gray</item>
+    </style>
+</resources>
